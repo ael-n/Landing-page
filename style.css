@@ -32,10 +32,10 @@ header {
 
 .header-links {
     display: flex;
-  justify-content: space-between;
-  width: 1080px;
-  color: #F9FAF8;
-  padding: 22px;
+    justify-content: space-between;
+    width: 1080px;
+    color: #F9FAF8;
+    padding: 22px;
 }
 
 .logo {
