@@ -33,7 +33,9 @@ h2 {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+    padding: 50px
 }
+
 
 .quote {
     background-color: #e5e7eb;
@@ -44,16 +46,44 @@ h2 {
     color: #1f2937;
     font-weight: 300;
 }
+
 .hero {
-    ;
+    display: flex;
+    justify-content: center;
 }
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
 }
 
-.content {
+.logo {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+}
+
+.cards-content {
     width: 1080px;
   display: flex;
   flex-direction: column;
@@ -62,12 +92,6 @@ header {
   font-size: 18px;
   margin-top: 34px;
   padding: 0px 40px 120px 100px;
-}
-
-h2 {
-    font-size: 36px;
-  font-weight: 900;
-  padding: 50px
 }
 
 .cards {
@@ -93,24 +117,36 @@ h2 {
     border-radius: 12px;
 }
 
+.call-to-action-container {
+    display: flex;
+    justify-content: center;
+}
 .call-to-action {
     display: flex;
     justify-content: center;
     align-content: center;
     width: 1220px;
     background-color: white;
+    flex: 1 1 auto;
+    max-width: 1000px;
 }
 
 .call {
     display: flex;
     justify-content: space-between;
-    width: 830px;
-    padding: 50px 80px;
     margin: 80px;
     border-radius: 12px;
     background-color: #3882f6;
-    color: #F9FAF8
+    color: #F9FAF8;
+  padding: 50px 100px;
+  border-radius: 10px;
+  align-items: center;
+  width: 100%;
+  max-width: 900px;
+
 }
+
+
 
 
 .quote {
@@ -137,6 +173,7 @@ h2 {
   font-size: 24px;
   font-weight: 900
 }
+
 /*box-sizing: content-box;
 display: flex;
 float: none;
