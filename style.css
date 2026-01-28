@@ -1,238 +1,87 @@
-
 body {
-    font-family: Roboto, sans-serif;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
+    font-family: roboto, sans-serif;
 }
 
-/*First section*/
-
-.section-1 {
-    margin: 32px;
-    padding-bottom: 32px;
+.hero,
+footer {
     background-color: #1f2937;
 }
 
-/*
-    display: flex;
-    align-items: normal;
-    justify-content: space-between;
-    flex: 1;
-    height: 100px;
-}*/
-
-header {
-    background-color: #1f2937;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 448px;
-}
-
-.header-links {
-    display: flex;
-    justify-content: space-between;
-    width: 1080px;
-    color: #F9FAF8;
-    padding: 22px;
-}
-
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    width: 138.15;
-    height: 27.5;
-}
-
-ul {
-    list-style-type: none;
-    display: flex;
-    gap: 24px;
-}
-
-.right-links {
-    display: flex;
-    color: #e5e7eb;
-    font-size: 18px;
-}
-
-a {
-    text-decoration: none;
-    color:  #f9faf8;
-    flex-direction: column;
-    flex: 1;
-}
-
-h1 {
+.main {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
 }
 
-.text-area p {
+.secondary,
+a {
     font-size: 18px;
     color: #e5e7eb;
 }
+.hero-logo-and-link {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 16px;
+}
 
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+    
+}
 
-.button {
+a {
+    text-decoration: none;
+}
+ul {
+}
+
+.button,
+.call-to-action {
     background-color: #3882f6;
-    color: white;
-    font-size: 18px;
-    padding: 8px 32px;
-    margin-top: 8px;
-    border-radius: 5px;
-    align-self: flex-start;
-
-}
-
-.container {
-    display: flex;
-}
-
-.text-area {
-    background-color: #1f2937;
-    display: flex;
-    justify-content: center;
-    gap: 48px;
-    padding: 120px 0 138px 0;
-}
-
-.title {
-    display: flex;
-    flex-direction: column;
-    width: 450px;
-}
-
-.text-1 {
-    width: 450px;
-    height: 67.5px;
-    color: #e5e7eb;
-    font-size: 18px;
-}
-
-.img {
-  display: flex;
-  flex: 1;
-  background-color: rgba(255, 255, 255, 0.301);
-  color: #F9FAF8;
-  font-size: 18px;
-  justify-content: center;
-  align-items: center;
-}
-
-
-
-
-
-
-
-/* Second section*/
-
-.content {
- width: 1080px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: white;
-  font-size: 18px;
-  margin-top: 34px;
-  padding: 0px 40px 120px 100px;
 }
 
 h2 {
     font-size: 36px;
+    color: #1f2937;
     font-weight: 900;
-    padding: 50px;
 }
-
-.cards {
-    display: flex;
-    gap: 46px;
-    justify-content: center;
-    width: 800px;
-    text-align: center;
-}
-
-.card {
-    height: 160px;
-    width: 160px;
-    border: solid #3882f6 4px;
-    box-sizing: content-box;
-    display: block;
-    float: none;
-    line-height: normal;
-    position: static;
-    z-index: auto;
-    display: flex;
-}
-
-.card-text {
-    font-size: 18px;
-    text-align: center;
-    color: #6f737c;
-    width: 162px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-
-
-/* Third section*/
-
-.qanda {
-    background-color: #e5e7eb;
-}
-
 
 .quote {
     background-color: #e5e7eb;
+}
+
+.quote-text {
     font-size: 36px;
     color: #1f2937;
     font-weight: 300;
     display: flex;
-    padding: 4px 16px;
-    align-items: center;
-    justify-content: center;
+    width: 800px;
+    margin-top: 100px;
+    font-style: italic;
+    padding: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 }
 
-.author {
-    background-color: #e5e7eb;
-}
-
-
-
-
-/* Fourth section*/
-
-.recrut {
-    align-self: center;
-    border: 2px solid white;
-    border-radius: 8px;
-}
-
-.recrut h3 {
-    font-size: 24px;
-    font-weight: bold;
-    color: #f9faf8;
-}
-.recrut .p {
-    font-size: 18px;
-    color: #f9faf8; 
-}
-.recrut .button-2 {
-    align-self: center;
-    border: 2px solid white;
-    border-radius: 8px;
-}
-
-footer {
-    color: #e5e7eb;
-    background-color: #1f2937;
+header {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    width: 800vh;
     padding: 20px;
-    margin: 0;
+}
+
+
+.call-to-action {
+    padding: 5vw;
+    margin: 10vmax;
+}
+
+.quote-author {
+    display: flex;
+    width: 755px;
+    justify-content: end;
+    font-size: 24px;
+    font-weight: 900;
 }
