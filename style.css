@@ -93,6 +93,26 @@ h2 {
     border-radius: 12px;
 }
 
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 1220px;
+    background-color: white;
+}
+
+.call {
+    display: flex;
+    justify-content: space-between;
+    width: 830px;
+    padding: 50px 80px;
+    margin: 80px;
+    border-radius: 12px;
+    background-color: #3882f6;
+    color: #F9FAF8
+}
+
+
 .quote {
     display: flex;
   flex-direction: column;
