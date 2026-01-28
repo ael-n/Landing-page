@@ -52,3 +52,74 @@ header {
     justify-content: space-between;
     padding: 20px;
 }
+
+.content {
+    width: 1080px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  font-size: 18px;
+  margin-top: 34px;
+  padding: 0px 40px 120px 100px;
+}
+
+h2 {
+    font-size: 36px;
+  font-weight: 900;
+  padding: 50px
+}
+
+.cards {
+    display: flex;
+    gap: 46px;
+    justify-content: center;
+    width: 800px;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    color: rgb(79, 79, 79);
+}
+
+.box {
+    width: 160px;
+    height: 160px;
+    border: solid #3882f6 4px;
+    border-radius: 12px;
+}
+
+.quote {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*width: 1080px;*/
+  padding: 0px 70px 100px 70px;
+}
+
+.quote-text {
+    display: flex;
+  width: 800px;
+  margin-top: 100px;
+  font-style: italic;
+  font-size: 36px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.quote-author {
+    display: flex;
+  width: 755px;
+  justify-content: end;
+  font-size: 24px;
+  font-weight: 900
+}
+/*box-sizing: content-box;
+display: flex;
+float: none;
+line-height: normal;
+position: static;
+z-index: auto;*/
