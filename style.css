@@ -68,25 +68,28 @@ h2 {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 20px 100px;
     background-color: #1f2937;
     color: #f9faf8;
     align-items: center;
 }
 
-.hero-logo-and-link {
-    display: flex;
-}
-
 .logo {
-    
+    font-size: 24px;
+    font-weight: 900;
 }
 
-.container {
+.header-link {
+
+}
+
+ul {
     display: flex;
-    justify-content: space-between;
+    gap: 24px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
-
 
 
 
