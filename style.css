@@ -47,6 +47,8 @@ h2 {
     font-weight: 300;
 }
 
+
+
 .hero {
     display: flex;
     justify-content: center;
@@ -57,26 +59,42 @@ h2 {
     justify-content: center;
 }
 
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     padding: 20px;
     background-color: #1f2937;
-  color: #f9faf8;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 100px;
+    color: #f9faf8;
+    align-items: center;
+}
+
+.hero-logo-and-link {
+    display: flex;
 }
 
 .logo {
-    display: flex;
+    
 }
 
 .container {
     display: flex;
     justify-content: space-between;
 }
+
+
+
+
+
+
+
+
+
 
 .cards-container {
     display: flex;
@@ -85,13 +103,13 @@ header {
 
 .cards-content {
     width: 1080px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: white;
-  font-size: 18px;
-  margin-top: 34px;
-  padding: 0px 40px 120px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    font-size: 18px;
+    margin-top: 34px;
+    padding: 0px 40px 120px 100px;
 }
 
 .cards {
@@ -117,6 +135,12 @@ header {
     border-radius: 12px;
 }
 
+
+
+
+
+
+
 .call-to-action-container {
     display: flex;
     justify-content: center;
@@ -138,13 +162,17 @@ header {
     border-radius: 12px;
     background-color: #3882f6;
     color: #F9FAF8;
-  padding: 50px 100px;
-  border-radius: 10px;
-  align-items: center;
-  width: 100%;
-  max-width: 900px;
+    padding: 50px 100px;
+    border-radius: 10px;
+    align-items: center;
+    width: 100%;
+    max-width: 900px;
 
 }
+
+
+
+
 
 
 
@@ -180,3 +208,10 @@ float: none;
 line-height: normal;
 position: static;
 z-index: auto;*/
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    color:  #f9faf8;
+}
