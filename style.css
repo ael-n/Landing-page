@@ -5,12 +5,14 @@ body {
 .hero,
 footer {
     background-color: #1f2937;
+    padding: 20px;
 }
 
 .main {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
+    margin: 0;
 }
 
 .secondary,
@@ -19,6 +21,9 @@ a {
     color: #e5e7eb;
 }
 
+.secondary {
+    margin: 0;
+}
 .logo {
     font-size: 24px;
     color: #f9faf8;
@@ -87,6 +92,24 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 5px;
+}
+
+.hero-text-button {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button {
+    background-color: #3882f6;
+    border: none;
+    width: 125px;
+    height: 35px;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 header {
@@ -190,7 +213,16 @@ header {
 
 }
 
-
+.sign-up{
+    background-color: #3882f6;
+    border: 3px solid white;
+    width: 125px;
+    height: 35px;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
 
 
 
