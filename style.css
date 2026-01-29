@@ -24,6 +24,7 @@ a {
 .secondary {
     margin: 0;
 }
+
 .logo {
     font-size: 24px;
     color: #f9faf8;
@@ -41,7 +42,6 @@ h2 {
     padding: 50px
 }
 
-
 .quote {
     background-color: #e5e7eb;
 }
@@ -52,16 +52,9 @@ h2 {
     font-weight: 300;
 }
 
-
-
-
 .logo {
     font-size: 24px;
     font-weight: 900;
-}
-
-.header-link {
-
 }
 
 ul {
@@ -75,8 +68,6 @@ ul {
 a {
     text-decoration: none;
 }
-
-
 
 .hero {
     display: flex;
@@ -128,7 +119,6 @@ header {
 }
 
 
-
 .img {
     align-self: stretch;
     background-color: gray;
@@ -178,12 +168,6 @@ header {
     border-radius: 12px;
 }
 
-
-
-
-
-
-
 .call-to-action-container {
     display: flex;
     justify-content: center;
@@ -225,10 +209,6 @@ header {
 }
 
 
-
-
-
-
 .quote {
     display: flex;
   flex-direction: column;
@@ -253,14 +233,6 @@ header {
   font-size: 24px;
   font-weight: 900
 }
-
-/*box-sizing: content-box;
-display: flex;
-float: none;
-line-height: normal;
-position: static;
-z-index: auto;*/
-
 
 footer {
     display: flex;
